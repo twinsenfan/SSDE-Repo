@@ -43,7 +43,7 @@ for row in cur.fetchall():
 
 cur.execute('''
       SELECT [APP_version]
-             ,PA_EVENTS_20140526.ID
+             ,PA_EVENTS_%s.ID
              ,[STATUS]
              ,[ACTION_TYPE]
              ,[DESTINATIONS]
@@ -53,9 +53,9 @@ cur.execute('''
              ,[POLICY_CATEGORIES]
              ,[ANALYZED_BY]
 
-      FROM [dbo].[PA_EVENTS_20140526], [dbo].[PA_MNG_USERS]
-      WHERE PA_EVENTS_20140526.SOURCE_ID = PA_MNG_USERS.ID
-      ''')
+      FROM dbo.PA_EVENTS_%s, [dbo].[PA_MNG_USERS]
+      WHERE PA_EVENTS_%s.SOURCE_ID = PA_MNG_USERS.ID'''
+      %(Partition ,Partition ,Partition))
 
 
 #                  Print the table headers (column descriptions)
