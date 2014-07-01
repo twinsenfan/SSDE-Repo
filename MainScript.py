@@ -24,7 +24,8 @@ TimeLowerboundary = TempTimelower.strftime('%Y-%m-%d %H:%M:%S')
 TimeUpperboundary = 0
 
 #Variable holds total running time
-Totalruntime = datetime.now()
+TempTotalruntime = datetime.now()
+Totalruntime = TempTotalruntime.strftime('%Y-%m-%d %H:%M:%S')
 
 #Variable holds number of iteration
 IterationNum = 0
@@ -36,11 +37,11 @@ def Logfilechecking (str):
 
         #Create a log file if does not exist, indicate script run for 1st time
         Log_file = open('Scriptlog.log','w')
-        text = "%s -- New log file created" %TimeLowerboundary
+        text = "%s -- New log file created" %str
         print ("File does not exist, creating new log file")
         print (text)
         Log_file.writelines(text)
-        text = "\n%s -- Script started first time" %TimeLowerboundary
+        text = "\n%s -- Script started first time" %str
         Log_file.writelines(text)
         Log_file.close()
 
@@ -48,11 +49,21 @@ def Logfilechecking (str):
 
         #Log file exists, writing script start time
         Log_file = open('Scriptlog.log','a')
-        text = "\n%s -- Script started" %TimeLowerboundary
+        text = "\n%s -- Script started" % str
         Log_file.writelines(text)
         print (text)
         Log_file.close()
 #End of log file checking function
+
+#Define log file insert function, this will write query result to log file
+def Logfilewrite (str):
+
+        Log_file = open('Scriptlog.log','a')
+        text = "\n%s -- Script started" % str
+        Log_file.writelines(text)
+        print (text)
+        Log_file.close()
+#End of log file write function
 
 #Defination of the DBQuery function with passing parameters, SQL IP, Username and password
 def SQLQuery (arg1, arg2, arg3, arg4, arg5):
@@ -149,9 +160,9 @@ while True:
         Log_file = open('Scriptlog.log','a')
         text = "\n%s -- Script terminated by Ctrl-C" %TimeLowerboundary
         Log_file.writelines(text)
-        text = "\n%s -- Script fired up %s times in %s " %(TimeLowerboundary ,IterationNum, TimeUpperboundary - Totalruntime)
+        text = "\n%s -- Script fired up %s times, terminated at %s " %(TimeLowerboundary, IterationNum, TimeUpperboundary)
         Log_file.writelines(text)
-        print ("Script fired up %s times in %s " %(IterationNum, TimeUpperboundary - Totalruntime))
+        print("Script fired up %s times, terminated at %s " %(IterationNum,TimeUpperboundary))
         Log_file.close()
         sys.exit()
 
