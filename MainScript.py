@@ -80,13 +80,12 @@ def Logfilechecking (str):
         Log_file.close()
 #End of log file checking function
 
-#Define log file insert function, this will write query result to log file
-def Logfilewrite (str):
+#Define log file insert function, this will write query result to log file, the input is a time stamp and string
+def Logfilewrite (str1, str2):
 
         Log_file = open('Scriptlog.log','a')
-        text = "\n%s -- Script started" % str
+        text = "\n%s -- %s" % (str1, str2)
         Log_file.writelines(text)
-        print (text)
         Log_file.close()
 #End of log file write function
 
@@ -122,19 +121,19 @@ def SQLQuery (arg1, arg2, arg3, arg4, arg5):
                 ,PA_EVENTS_%s.ID
                 ,[STATUS]
                 ,CASE PA_EVENTS_20140526.ACTION_TYPE
-						WHEN 1 THEN 'act=Audited'
-						WHEN 100 THEN 'act=Quarantined'
-						WHEN 2 THEN 'act=Blocked'
-						WHEN 3 THEN 'act=Encrypted'
- 						WHEN 4 THEN 'act=Released'
-						WHEN 5 THEN 'act=Run Command'
-						WHEN 6 THEN 'act=Permitted'
-						WHEN 7 THEN 'act=Notify'
-						WHEN 8 THEN 'act=Endpoint Confirm Abort'
-						WHEN 9 THEN 'act=Endpoint Confirm Continue'
-						WHEN 10 THEN 'act=Endpoint Run Command'
-						WHEN 11 THEN 'act=Drop attachments'
-						WHEN 13 THEN 'act=Encrypt with Password'
+						WHEN 1 THEN ' act=Audited'
+						WHEN 100 THEN ' act=Quarantined'
+						WHEN 2 THEN ' act=Blocked'
+						WHEN 3 THEN ' act=Encrypted'
+ 						WHEN 4 THEN ' act=Released'
+						WHEN 5 THEN ' act=Run Command'
+						WHEN 6 THEN ' act=Permitted'
+						WHEN 7 THEN ' act=Notify'
+						WHEN 8 THEN ' act=Endpoint Confirm Abort'
+						WHEN 9 THEN ' act=Endpoint Confirm Continue'
+						WHEN 10 THEN ' act=Endpoint Run Command'
+						WHEN 11 THEN ' act=Drop attachments'
+						WHEN 13 THEN ' act=Encrypt with Password'
 				END
                 ,[DESTINATIONS]
                 ,[ATT_NAMES]
@@ -185,6 +184,7 @@ def SQLQuery (arg1, arg2, arg3, arg4, arg5):
             elif n == 9:
                 message = message  + 'PE=%s ' % field
 
+
             else:
                 message = message  + '%s' % field
 
@@ -192,7 +192,13 @@ def SQLQuery (arg1, arg2, arg3, arg4, arg5):
             n += 1
 
         print(message)
+
+        #Write the entry to log file as well
+
+        Logfilewrite(TimeUpperboundary, message)
+
         syslog(message, level=6, facility=1, host='10.239.117.67', port=514)
+
         print ('')
 
     # I have done all the things, you can leave me and serve for others!
