@@ -6,6 +6,7 @@ import os
 from datetime import datetime
 import sys
 import socket
+import getpass
 
 #Temp variables to hold connection string
 Server = '10.239.117.65'
@@ -76,7 +77,10 @@ def Logfilechecking (str):
         Log_file = open('Scriptlog.log','a')
         text = "\n%s -- Script started" % str
         Log_file.writelines(text)
+
+        #[Debug] Print text for debug purpose, turn off
         print (text)
+
         Log_file.close()
 #End of log file checking function
 
@@ -210,6 +214,25 @@ def SQLQuery (arg1, arg2, arg3, arg4, arg5):
 
 #call for function to check the log file, pass current time as parameter
 Logfilechecking(TimeLowerboundary);
+
+#define command line validation
+total = len(sys.argv)
+print ("The total numbers of args passed to the script: %d " % total)
+
+#checking length of cmd string, exit and prompt syntax
+if total != 3:
+    print ("Error, incorrect Syntax!")
+    print ("Usage: Script.py <SQL Server IP> <Username>")
+    sys.exit()
+
+else:
+    #Ask for password when syntax is correct and continue the rest of program
+    Server = str(sys.argv[1])
+    Username =str(sys.argv[2])
+    Password = getpass.getpass(prompt='Password for account %s: ' % str(sys.argv[2]))
+
+    #Print out password, this should be comment out
+    print('You entered:', Password)
 
 #Infite loop that fire up the query in a configurable interval, changing the sleep timer(in sec)
 while True:
