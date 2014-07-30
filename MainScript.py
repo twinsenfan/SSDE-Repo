@@ -9,14 +9,15 @@ import socket
 import getpass
 
 #Temp variables to hold connection string
-Server = '10.239.117.65'
-Username = 'sa'
-Password = 'websense#123'
+Server = ''
+Username = ''
+Password = ''
+SyslogIP = ''
 
-#User configurable setting
-#Variable holds delay timer in seconds between each iteration
-DelayTimer = 5
-#No other variables should be changed by user
+
+#Variable holds total number of incident processed
+#global Totalincident
+#Totalincident = 0
 
 #Variable holds starting time of script
 TempTimelower = datetime.now()
@@ -51,6 +52,8 @@ def syslog(message, level=LEVEL['notice'], facility=FACILITY['daemon'], host='lo
     """ Send syslog UDP packet to given host and port. """
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     data = '<%d>%s' % (level + facility*8, message)
+
+    #[debug]: print out message send to syslog
     print(data)
     sock.sendto(bytes(data, 'UTF-8'), (host, port))
     sock.close()
@@ -65,7 +68,9 @@ def Logfilechecking (str):
         Log_file = open('Scriptlog.log','w')
         text = "%s -- New log file created" %str
         print ("File does not exist, creating new log file")
-        print (text)
+
+        #[Debug]: enable logging debug
+        #print (text)
         Log_file.writelines(text)
         text = "\n%s -- Script started first time" %str
         Log_file.writelines(text)
@@ -79,7 +84,7 @@ def Logfilechecking (str):
         Log_file.writelines(text)
 
         #[Debug] Print text for debug purpose, turn off
-        print (text)
+        #print (text)
 
         Log_file.close()
 #End of log file checking function
@@ -107,16 +112,21 @@ def SQLQuery (arg1, arg2, arg3, arg4, arg5):
     # Select current active-online partition
     cur.execute('''select PARTITION_INDEX from dbo.PA_EVENT_PARTITION_CATALOG WHERE STATUS='ONLINE_ACTIVE' ''')
 
-    for d in cur.description:
-        print (d[0], end=" ")
+    #for d in cur.description:
+
+        #[Debug]: print out column name
+        #print(d[0], end=" ")
 
     for row in cur.fetchall():
         for field in row:
             Partition = field
-            #print (field, end=" ")
-            print (Partition)
 
-        print ('')
+            #print (field, end=" ")
+
+            # [Debug]: print current partition name
+            #print (Partition)
+
+        print('')
 
 
 
@@ -142,27 +152,29 @@ def SQLQuery (arg1, arg2, arg3, arg4, arg5):
                 ,[DESTINATIONS]
                 ,[ATT_NAMES]
                 ,[SUBJECT]
-                ,PA_MNG_USERS.COMMON_NAME
+                ,PA_MNG_USERS.LOGIN_NAME
                 ,[POLICY_CATEGORIES]
                 ,[ANALYZED_BY]
 
           FROM dbo.PA_EVENTS_%s, [dbo].[PA_MNG_USERS]
           WHERE PA_EVENTS_%s.SOURCE_ID = PA_MNG_USERS.ID AND
-                dbo.PA_EVENTS_%s.INSERT_DATE <  '%s'AND
-                dbo.PA_EVENTS_%s.INSERT_DATE >  '%s' ''' % (Partition, Partition, Partition, Partition,arg5,Partition, arg4))
+                dbo.PA_EVENTS_%s.INSERT_DATE <=  '%s'AND
+                dbo.PA_EVENTS_%s.INSERT_DATE >=  '%s' ''' % (Partition, Partition, Partition, Partition, arg5, Partition,arg4))
 
     # Print the table headers (column descriptions)
-    for d in cur.description:
-        print(d[0], end=" ")
+    #for d in cur.description:
+        # [Debug]: print out column header
+        #print(d[0], end=" ")
 
     # Start a new line
-    print ('')
+    print('')
 
     message = 'CEF:0|Websense|Data Security|'
 
     # Print the table, one row per line
     for row in cur.fetchall():
         n = 0
+
         for field in row:
             if n == 0 or n == 1:
                 message = message  + '%s|' % field
@@ -195,20 +207,24 @@ def SQLQuery (arg1, arg2, arg3, arg4, arg5):
             #print(message + '%s' % field, end="|")
             n += 1
 
-        print(message)
+        #print(message)
 
-        #Write the entry to log file as well
-
+        #[Debug]: Write the entry to log file as well
         Logfilewrite(TimeUpperboundary, message)
 
-        syslog(message, level=6, facility=1, host='10.239.117.67', port=514)
+        syslog(message, level=6, facility=1, host='%s'%SyslogIP, port=514)
+        #global Totalincident += 1
 
-        print ('')
+        message = 'CEF:0|Websense|Data Security|'
+
+        print('')
 
     # I have done all the things, you can leave me and serve for others!
 
     cur.close()
     conn.close()
+    #print(global Totalincident + 'Incident processed')
+
     return
 #End of SQLQuery
 
@@ -217,22 +233,30 @@ Logfilechecking(TimeLowerboundary);
 
 #define command line validation
 total = len(sys.argv)
-print ("The total numbers of args passed to the script: %d " % total)
+#[Debug]: print out total number of args passed to command
+#print ("The total numbers of args passed to the script: %d " % total)
 
 #checking length of cmd string, exit and prompt syntax
-if total != 3:
+if total != 5:
     print ("Error, incorrect Syntax!")
-    print ("Usage: Script.py <SQL Server IP> <Username>")
+    print ("Usage: Script <SQL Server IP> <Syslog IP> <SQL Username> <Delay in seconds>")
     sys.exit()
 
 else:
     #Ask for password when syntax is correct and continue the rest of program
     Server = str(sys.argv[1])
-    Username =str(sys.argv[2])
-    Password = getpass.getpass(prompt='Password for account %s: ' % str(sys.argv[2]))
+    Username =str(sys.argv[3])
+    Password = getpass.getpass(prompt='Enter password for %s: ' % str(sys.argv[3]))
+    SyslogIP = str(sys.argv[2])
 
-    #Print out password, this should be comment out
-    print('You entered:', Password)
+    #[Debug]: Print out password, this should be comment out
+    #print('You entered:', Password)
+
+    DelayTimer = float(sys.argv[4])
+
+    #Clear the screen
+    os.system('cls')
+    print('Syslog script started:')
 
 #Infite loop that fire up the query in a configurable interval, changing the sleep timer(in sec)
 while True:
@@ -243,20 +267,26 @@ while True:
         TempTimeUpper = datetime.now()
         TimeUpperboundary=TempTimeUpper.strftime('%Y-%m-%d %H:%M:%S')
 
-        #Print out time interval, replace the SQL query here
-        print (TimeLowerboundary, TimeUpperboundary)
+        #[DEBUG]: Print out time interval,
+        print('Time: '+TimeLowerboundary + ' --- '+ TimeUpperboundary)
 
         #Calling SQL query to output content
         SQLQuery(Server, Username, Password, TimeLowerboundary, TimeUpperboundary)
-
-        #message = 'test message with hostname'
-        #syslog(message, level=6, facility=1, host='10.239.117.67', port=514)
 
         #Re-assign low with upper value to move on to next iteration
         TimeLowerboundary = TimeUpperboundary
 
         #Keep record of number of loop
         IterationNum += 1
+
+    #Catch the pypyodbc database related error
+    except pypyodbc.DatabaseError:
+        print("There was a database error, script terminated")
+        Log_file = open('Scriptlog.log','a')
+        text = "\n%s -- Script terminated with database error" %TimeLowerboundary
+        Log_file.writelines(text)
+        Log_file.close()
+        sys.exit()
 
     except KeyboardInterrupt:
         print ("Ctrl-C detected, script terminated.")
