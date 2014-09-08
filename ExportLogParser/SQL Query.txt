@@ -1,0 +1,16 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT [EXTERNAL_ID]
+	  ,PA_MNG_USERS.LOGIN_NAME
+      ,PA_RP_SERVICES.DESCRIPTION
+      ,[ACTION_TYPE]
+      ,[STATUS]
+      ,[POLICY_CATEGORIES]
+      ,[DESTINATIONS]
+      ,[ANALYZED_BY]
+      ,[BREACH_CONTENT]
+      ,[DEVICE_NAME_DEST]
+      ,[RESOURCE_TYPE]
+      ,[APP_VERSION]
+  FROM [wbsn-data-security].[dbo].[PA_EVENTS_20140902], [dbo].[PA_MNG_USERS], [dbo].PA_RP_SERVICES
+  where  PA_EVENTS_20140902.SOURCE_ID = PA_MNG_USERS.ID 
+  AND PA_EVENTS_20140902.SERVICE_ID = PA_RP_SERVICES.ID 

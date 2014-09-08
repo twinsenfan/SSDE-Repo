@@ -454,3 +454,34 @@
 2014-07-29 21:38:04 -- Script started
 2014-07-29 21:48:20 -- Script started
 2014-07-29 21:51:17 -- Script started
+CEF:0|Websense|Data Security|7.8|17097217389039511433||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|4486038335769669117||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|8018447054391766748||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|17529159866771880852||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|15153695589844279483||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|16234492788022087846||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|9386252447408232267||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|17099955121921247048||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|13277399578927849620||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|12703889790544091826||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|15583585892568152641||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|15223782977349303242||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|17386517966569580158||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|1173430942501034061||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|1965396208672074831||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|9964395599196726814||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|4919127276192895035||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|3120886623982543845||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|6432318716738405416||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|6937331614065134969||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|7801734939750237609||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|12773495428315386646||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|1750892697797612406||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|8162737689071227176||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|3117789973893571018||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|1533334509094828427||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|11115621638316122474||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|13712244807544463877||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|5714474135363468326||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|4414373043393120921||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 
+CEF:0|Websense|Data Security|7.8|5785434840431477459||DLP Incident|1| act=Permitted dvc= dvchost= duser=statsfe2.update.microsoft.com fname=None rt=  suser=None cat=PCI Audit sourceServiceName=HTTP 

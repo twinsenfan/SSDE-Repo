@@ -1,0 +1,70 @@
+
+ -- Script started
+ IncidentID=459039, src=10.239.117.67, dst=statsfe2.update.microsoft.com, subject=http://statsfe2.update.microsoft.com/ReportingWebService/ReportingWebService.asmx, trigger=None, policy=PCI Audit, Action=Permitted, channel=HTTP
+ History: 459039, Detected and recorded incident, None, system, 2014-08-31 04:10:29.590000
+ History: 459039, Changed incident status from New to Escalated, None, admin, 2014-09-04 23:18:09.760000
+ 
+ IncidentID=459114, src=10.239.117.65, dst=statsfe2.update.microsoft.com, subject=http://statsfe2.update.microsoft.com/ReportingWebService/ReportingWebService.asmx, trigger=None, policy=PCI Audit, Action=Permitted, channel=HTTP
+ History: 459114, Detected and recorded incident, None, system, 2014-08-31 13:17:55.357000
+ History: 459114, Changed incident status from New to Escalated, None, admin, 2014-09-04 23:18:09.757000
+ 
+ IncidentID=459264, src=10.239.117.65, dst=statsfe2.update.microsoft.com, subject=http://statsfe2.update.microsoft.com/ReportingWebService/ReportingWebService.asmx, trigger=None, policy=PCI Audit, Action=Permitted, channel=HTTP
+ History: 459264, Detected and recorded incident, None, system, 2014-09-02 02:29:57.167000
+ History: 459264, Changed incident status from New to Escalated, None, admin, 2014-09-08 23:26:10.097000
+ 
+ IncidentID=458750, src=10.239.117.67, dst=statsfe2.update.microsoft.com, subject=http://statsfe2.update.microsoft.com/ReportingWebService/ReportingWebService.asmx, trigger=None, policy=PCI Audit, Action=Permitted, channel=HTTP
+ History: 458750, Detected and recorded incident, None, system, 2014-09-02 15:12:51.183000
+ History: 458750, Changed incident status from New to Escalated, None, admin, 2014-09-08 23:26:10.097000
+ 
+ IncidentID=459135, src=10.239.117.65, dst=statsfe2.update.microsoft.com, subject=http://statsfe2.update.microsoft.com/ReportingWebService/ReportingWebService.asmx, trigger=None, policy=PCI Audit, Action=Permitted, channel=HTTP
+ History: 459135, Detected and recorded incident, None, system, 2014-09-02 22:11:43.700000
+ History: 459135, Changed incident status from New to Escalated, None, admin, 2014-09-08 23:26:10.093000
+ 
+ IncidentID=458899, src=10.239.117.67, dst=statsfe2.update.microsoft.com, subject=http://statsfe2.update.microsoft.com/ReportingWebService/ReportingWebService.asmx, trigger=None, policy=PCI Audit, Action=Permitted, channel=HTTP
+ History: 458899, Detected and recorded incident, None, system, 2014-09-03 12:03:34.690000
+ History: 458899, Changed incident status from New to Escalated, None, admin, 2014-09-08 23:26:10.090000
+ 
+ IncidentID=459145, src=10.239.117.65, dst=statsfe2.update.microsoft.com, subject=http://statsfe2.update.microsoft.com/ReportingWebService/ReportingWebService.asmx, trigger=None, policy=PCI Audit, Action=Permitted, channel=HTTP
+ History: 459145, Detected and recorded incident, None, system, 2014-09-03 18:20:17.527000
+ History: 459145, Changed incident status from New to Escalated, None, admin, 2014-09-08 23:26:10.090000
+ 
+ IncidentID=458761, src=10.239.117.67, dst=statsfe2.update.microsoft.com, subject=http://statsfe2.update.microsoft.com/ReportingWebService/ReportingWebService.asmx, trigger=None, policy=PCI Audit, Action=Permitted, channel=HTTP
+ History: 458761, Detected and recorded incident, None, system, 2014-09-04 05:46:50.777000
+ History: 458761, Changed incident status from New to Escalated, None, admin, 2014-09-08 23:26:10.087000
+ 
+ IncidentID=458824, src=10.239.117.65, dst=statsfe2.update.microsoft.com, subject=http://statsfe2.update.microsoft.com/ReportingWebService/ReportingWebService.asmx, trigger=None, policy=PCI Audit, Action=Permitted, channel=HTTP
+ History: 458824, Detected and recorded incident, None, system, 2014-09-04 15:06:53.910000
+ History: 458824, Changed incident status from New to Escalated, None, admin, 2014-09-04 23:17:12.560000
+ 
+ IncidentID=458974, src=10.239.117.67, dst=statsfe2.update.microsoft.com, subject=http://statsfe2.update.microsoft.com/ReportingWebService/ReportingWebService.asmx, trigger=None, policy=PCI Audit, Action=Permitted, channel=HTTP
+ History: 458974, Detected and recorded incident, None, system, 2014-09-05 01:45:53.470000
+ History: 458974, Changed incident status from New to Escalated, None, admin, 2014-09-08 23:26:10.083000
+ 
+ IncidentID=459155, src=10.239.117.65, dst=statsfe2.update.microsoft.com, subject=http://statsfe2.update.microsoft.com/ReportingWebService/ReportingWebService.asmx, trigger=None, policy=PCI Audit, Action=Permitted, channel=HTTP
+ History: 459155, Detected and recorded incident, None, system, 2014-09-05 10:50:29.330000
+ History: 459155, Changed incident status from New to Escalated, None, admin, 2014-09-08 23:26:10.080000
+ 
+ IncidentID=459414, src=10.239.117.67, dst=statsfe2.update.microsoft.com, subject=http://statsfe2.update.microsoft.com/ReportingWebService/ReportingWebService.asmx, trigger=None, policy=PCI Audit, Action=Permitted, channel=HTTP
+ History: 459414, Detected and recorded incident, None, system, 2014-09-05 22:43:04.580000
+ History: 459414, Changed incident status from New to Escalated, None, admin, 2014-09-08 23:26:10.077000
+ 
+ IncidentID=458771, src=10.239.117.65, dst=statsfe2.update.microsoft.com, subject=http://statsfe2.update.microsoft.com/ReportingWebService/ReportingWebService.asmx, trigger=None, policy=PCI Audit, Action=Permitted, channel=HTTP
+ History: 458771, Detected and recorded incident, None, system, 2014-09-06 06:13:56.797000
+ History: 458771, Changed incident status from New to Escalated, None, admin, 2014-09-08 23:26:10.073000
+ 
+ IncidentID=459210, src=10.239.117.67, dst=statsfe2.update.microsoft.com, subject=http://statsfe2.update.microsoft.com/ReportingWebService/ReportingWebService.asmx, trigger=None, policy=PCI Audit, Action=Permitted, channel=HTTP
+ History: 459210, Detected and recorded incident, None, system, 2014-09-06 18:42:27.450000
+ History: 459210, Changed incident status from New to Escalated, None, admin, 2014-09-08 23:26:10.070000
+ 
+ IncidentID=459221, src=10.239.117.65, dst=statsfe2.update.microsoft.com, subject=http://statsfe2.update.microsoft.com/ReportingWebService/ReportingWebService.asmx, trigger=None, policy=PCI Audit, Action=Permitted, channel=HTTP
+ History: 459221, Detected and recorded incident, None, system, 2014-09-06 23:55:59.697000
+ History: 459221, Changed incident status from New to Escalated, None, admin, 2014-09-08 23:26:10.070000
+ 
+ IncidentID=458909, src=10.239.117.67, dst=statsfe2.update.microsoft.com, subject=http://statsfe2.update.microsoft.com/ReportingWebService/ReportingWebService.asmx, trigger=None, policy=PCI Audit, Action=Permitted, channel=HTTP
+ History: 458909, Detected and recorded incident, None, system, 2014-09-07 16:32:31.030000
+ History: 458909, Changed incident status from New to Escalated, None, admin, 2014-09-08 23:26:10.067000
+ 
+ IncidentID=458781, src=10.239.117.65, dst=statsfe2.update.microsoft.com, subject=http://statsfe2.update.microsoft.com/ReportingWebService/ReportingWebService.asmx, trigger=None, policy=PCI Audit, Action=Permitted, channel=HTTP
+ History: 458781, Detected and recorded incident, None, system, 2014-09-07 18:43:46.923000
+ History: 458781, Changed incident status from New to Escalated, None, admin, 2014-09-08 23:26:10.063000
+ 
