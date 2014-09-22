@@ -32,26 +32,33 @@ TimeLowerboundary = ''
 #Define log file checking function
 def Logfilechecking (str):
 
-    if os.path.exists('./Scriptlog.log') == False:
+    if os.path.exists('./Output.csv') == False:
 
         #Create a log file if does not exist, indicate script run for 1st time
-        Log_file = open('Scriptlog.log','w')
-        text = "%s -- New log file created" %str
-        print ("File does not exist, creating new log file")
+        Log_file = open('Output.csv', 'w')
+        #text = "%s -- New log file created" %str
+        #print ("File does not exist, creating new log file")
 
         #[Debug]: enable logging debug
         #print (text)
-        Log_file.writelines(text)
-        text = "\n%s -- Script started first time" %str
-        Log_file.writelines(text)
+        #Log_file.writelines(text)
+        #text = "\n%s -- Script started" %str
+        #Log_file.writelines(text)
+
+        #text = "\n%s Incident ID, Date-Time, History, Comments, History Performed,Source, Destination, Action, Channel " %str
+        #Log_file.writelines(text)
+
         Log_file.close()
 
     else:
 
         #Log file exists, writing script start time
-        Log_file = open('Scriptlog.log','a')
-        text = "\n%s -- Script started" % str
-        Log_file.writelines(text)
+        Log_file = open('Output.csv','a')
+        #text = "\n%s -- Script started" % str
+        #Log_file.writelines(text)
+
+        #text = "\n%s Incident ID, Date-Time, History, Comments, History Performed, Source, Destination, Action, Channel " %str
+        #Log_file.writelines(text)
 
         #[Debug] Print text for debug purpose, turn off
         #print (text)
@@ -62,7 +69,7 @@ def Logfilechecking (str):
 #Define log file insert function, this will write query result to log file, the input is a time stamp and string
 def Logfilewrite (str1):
 
-        Log_file = open('Scriptlog.log','a')
+        Log_file = open('Output.csv','a')
         text = "\n %s" % (str1)
         Log_file.writelines(text)
         Log_file.close()
@@ -104,9 +111,6 @@ def SQLQuery (arg1, arg2, arg3, arg4, arg5):
          SELECT PA_EVENTS_%s.ID
                 ,PA_MNG_USERS.common_name
                 ,[DESTINATIONS]
-                ,[SUBJECT]
-                ,[ATT_NAMES]
-                ,[POLICY_CATEGORIES]
                 ,CASE PA_EVENTS_%s.ACTION_TYPE
 						WHEN 1 THEN 'Action=Audited'
 						WHEN 100 THEN 'Action=Quarantined'
@@ -130,9 +134,9 @@ def SQLQuery (arg1, arg2, arg3, arg4, arg5):
                 dbo.PA_EVENTS_%s.INSERT_DATE >=  '%s'AND PA_EVENTS_%s.SERVICE_ID = PA_RP_SERVICES.ID ''' % (Partition, Partition, Partition, Partition, Partition, Partition, arg5, Partition,arg4, Partition))
 
     # Print the table headers (column descriptions)
-    for d in cur.description:
+    #for d in cur.description:
         # [Debug]: print out column header
-        print(d[0], end=" ")
+        #print(d[0], end=" ")
 
     # Start a new line
     print('')
@@ -144,28 +148,21 @@ def SQLQuery (arg1, arg2, arg3, arg4, arg5):
     for row in cur.fetchall():
         n = 0
 
-
         for field in row:
             if n == 0:
-                message = message  + 'IncidentID=%s' % field
+                #message = message  + '%s' % field
+
+                #Extract the incident ID for each row
                 incidentID = field
 
             elif n == 1:
                 message = message + ', src=%s' % field
 
+
             elif n == 2:
                 message = message + ', dst=%s' % field
 
-            elif n == 3:
-               message = message  + ', subject=%s' % field
-
             elif n == 4:
-                message = message  + ', trigger=%s' % field
-
-            elif n == 5:
-                message = message  + ', policy=%s' % field
-
-            elif n == 7:
                 message = message  + ', channel=%s' % field
 
             else:
@@ -177,30 +174,32 @@ def SQLQuery (arg1, arg2, arg3, arg4, arg5):
             #print(field)
 
         #[Debug]print out constructed message to screen, same as the one output to file
-        print(message)
+        #print(message)
 
         #[Debug]: Write the entry to log file as well
-        Logfilewrite(message)
+        #Logfilewrite(message)
+
+        #Original place for history cur
 
         # Cursor to get the incident history
         Historycur = conn.cursor()
 
         Historycur.execute('''
          SELECT [Event_ID]
+                ,[Update_date]
                 ,[Task_performed]
                 ,[Comments]
                 ,[Admin_name]
-                ,[Update_date]
 
           FROM dbo.PA_EVENT_History_%s
-          WHERE Event_id = %s ''' % (Partition, incidentID))
+          WHERE Event_id = %s order by Update_date asc ''' % (Partition, incidentID))
 
         for line in Historycur.fetchall():
             j = 0
 
             for field in line:
                 if j == 0:
-                    history = history + 'History: %s, ' % field
+                    history = history + '%s, ' % field
                 elif j < 4:
                     history = history + '%s, ' % field
                 else:
@@ -208,16 +207,19 @@ def SQLQuery (arg1, arg2, arg3, arg4, arg5):
 
                 j += 1
 
-            #history = history  + ' '
+            history = history  + message
             print(history)
             #[Debug]: Write the entry to log file as well
             Logfilewrite(history)
-
+            message = ''
             history = ''
+
+        #Original end of history cur
 
         #[Debug] print out number of record for each calling of SQL function
         #print('Value of j is ', j)
 
+        #produce a new line in the log file to split each incident
         message = ''
         Logfilewrite(message)
 
@@ -258,7 +260,7 @@ else:
 
     #Clear the screen
     os.system('cls')
-    print('Syslog script started:')
+    print('History output script started:')
 
 
     #calculate current date
@@ -268,7 +270,12 @@ else:
     TimeLowerboundary=date.today() - timedelta(Range)
 
     #[DEBUG]: Print out start time and end time
-    print('Time:' , TimeLowerboundary, TimeUpperboundary)
+    print('Incident interval', TimeLowerboundary, '---', TimeUpperboundary)
+    text = 'Incident interval %s --- %s' % (TimeLowerboundary, TimeUpperboundary)
+    Logfilewrite(text)
+
+    text = "Incident ID, Date-Time, History, Comments, History Performed,Source, Destination, Action, Channel "
+    Logfilewrite(text)
 
     #Calling SQL query to output content
     SQLQuery(Server, Username, Password, TimeLowerboundary, TimeUpperboundary)
