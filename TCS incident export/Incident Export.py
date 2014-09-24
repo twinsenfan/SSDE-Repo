@@ -109,29 +109,46 @@ def SQLQuery (arg1, arg2, arg3, arg4, arg5):
 
     cur.execute('''
          SELECT PA_EVENTS_%s.ID
+                ,DETECT_DATE_TS
+                ,DETECT_DATE_TZ
                 ,PA_MNG_USERS.common_name
-                ,[DESTINATIONS]
-                ,CASE PA_EVENTS_%s.ACTION_TYPE
-						WHEN 1 THEN 'Action=Audited'
-						WHEN 100 THEN 'Action=Quarantined'
-						WHEN 2 THEN 'Action=Blocked'
-						WHEN 3 THEN 'Action=Encrypted'
- 						WHEN 4 THEN 'Action=Released'
-						WHEN 5 THEN 'Action=Run Command'
-						WHEN 6 THEN 'Action=Permitted'
-						WHEN 7 THEN 'Action=Notify'
-						WHEN 8 THEN 'Action=Endpoint Confirm Abort'
-						WHEN 9 THEN 'Action=Endpoint Confirm Continue'
-						WHEN 10 THEN 'Action=Endpoint Run Command'
-						WHEN 11 THEN 'Action=Drop attachments'
-						WHEN 13 THEN 'Action=Encrypt with Password'
-				END
+                ,POLICY_CATEGORIES
                 ,PA_RP_SERVICES.DESCRIPTION
+                ,[DESTINATIONS]
+                ,CASE SENSITIVITY_ID
+                        WHEN 1 THEN 'High'
+                        WHEN 2 THEN 'Medium'
+                        WHEN 3 THEN 'Low'
+                 END
+
+                ,CASE PA_EVENTS_%s.ACTION_TYPE
+						WHEN 1 THEN 'Audited'
+						WHEN 100 THEN 'Quarantined'
+						WHEN 2 THEN 'Blocked'
+						WHEN 3 THEN 'Encrypted'
+ 						WHEN 4 THEN 'Released'
+						WHEN 5 THEN 'Run Command'
+						WHEN 6 THEN 'Permitted'
+						WHEN 7 THEN 'Notify'
+						WHEN 8 THEN 'Endpoint Confirm Abort'
+						WHEN 9 THEN 'Endpoint Confirm Continue'
+						WHEN 10 THEN 'Endpoint Run Command'
+						WHEN 11 THEN 'Drop attachments'
+						WHEN 13 THEN 'Encrypt with Password'
+				END
+                ,TOTAL_MATCHES
+                ,TOTAL_SIZE
+                ,CASE STATUS
+                      WHEN 1 THEN 'New'
+                      WHEN 3 THEN 'In Process'
+                      WHEN 5 THEN 'Closed'
+                 END
+
 
           FROM dbo.PA_EVENTS_%s, [dbo].[PA_MNG_USERS], PA_RP_SERVICES
-          WHERE PA_EVENTS_%s.status = 9 and PA_EVENTS_%s.SOURCE_ID = PA_MNG_USERS.ID AND
+          WHERE PA_EVENTS_%s.SOURCE_ID = PA_MNG_USERS.ID AND
                 dbo.PA_EVENTS_%s.INSERT_DATE <=  '%s'AND
-                dbo.PA_EVENTS_%s.INSERT_DATE >=  '%s'AND PA_EVENTS_%s.SERVICE_ID = PA_RP_SERVICES.ID ''' % (Partition, Partition, Partition, Partition, Partition, Partition, arg5, Partition,arg4, Partition))
+                dbo.PA_EVENTS_%s.INSERT_DATE >=  '%s'AND PA_EVENTS_%s.SERVICE_ID = PA_RP_SERVICES.ID ''' % (Partition, Partition, Partition, Partition, Partition, arg5, Partition,arg4, Partition))
 
     # Print the table headers (column descriptions)
     #for d in cur.description:
@@ -142,7 +159,6 @@ def SQLQuery (arg1, arg2, arg3, arg4, arg5):
     print('')
 
     message = ''
-    history = ''
 
     # Print the table, one row per line
     for row in cur.fetchall():
@@ -150,22 +166,11 @@ def SQLQuery (arg1, arg2, arg3, arg4, arg5):
 
         for field in row:
             if n == 0:
-                #message = message  + '%s' % field
 
-                #Extract the incident ID for each row
-                incidentID = field
-
-            elif n == 1:
-                message = message + ', src=%s' % field
-
-
-            elif n == 2:
-                message = message + ', dst=%s' % field
-
-            elif n == 4:
-                message = message  + ', channel=%s' % field
+                message = message  + '%s' % field
 
             else:
+
                 message = message  + ', %s' % field
 
             n += 1
@@ -174,47 +179,11 @@ def SQLQuery (arg1, arg2, arg3, arg4, arg5):
             #print(field)
 
         #[Debug]print out constructed message to screen, same as the one output to file
-        #print(message)
+        print(message)
 
         #[Debug]: Write the entry to log file as well
-        #Logfilewrite(message)
+        Logfilewrite(message)
 
-        #Original place for history cur
-
-        # Cursor to get the incident history
-        Historycur = conn.cursor()
-
-        Historycur.execute('''
-         SELECT [Event_ID]
-                ,[Update_date]
-                ,[Task_performed]
-                ,[Comments]
-                ,[Admin_name]
-
-          FROM dbo.PA_EVENT_History_%s
-          WHERE Event_id = %s order by Update_date asc ''' % (Partition, incidentID))
-
-        for line in Historycur.fetchall():
-            j = 0
-
-            for field in line:
-                if j == 0:
-                    history = history + '%s, ' % field
-                elif j < 4:
-                    history = history + '%s, ' % field
-                else:
-                    history = history + '%s' % field
-
-                j += 1
-
-            history = history  + message
-            print(history)
-            #[Debug]: Write the entry to log file as well
-            Logfilewrite(history)
-            message = ''
-            history = ''
-
-        #Original end of history cur
 
         #[Debug] print out number of record for each calling of SQL function
         #print('Value of j is ', j)
@@ -228,7 +197,6 @@ def SQLQuery (arg1, arg2, arg3, arg4, arg5):
     # I have done all the things, you can leave me and serve for others!
 
     cur.close()
-    Historycur.close()
     conn.close()
 
 #End of SQLQuery
@@ -260,21 +228,21 @@ else:
 
     #Clear the screen
     os.system('cls')
-    print('History output script started:')
+    print('Incident output script started:')
 
 
     #calculate current date
     TimeUpperboundary = date.today()
 
     #calcualte date by minus the input interval from command line
-    TimeLowerboundary=date.today() - timedelta(Range)
+    TimeLowerboundary=date.today() - (timedelta(Range))
 
     #[DEBUG]: Print out start time and end time
     print('Incident interval', TimeLowerboundary, '---', TimeUpperboundary)
     text = 'Incident interval %s --- %s' % (TimeLowerboundary, TimeUpperboundary)
     Logfilewrite(text)
 
-    text = "Incident ID, Date-Time, History, Comments, History Performed,Source, Destination, Action, Channel "
+    text = "Incident ID, Incident Time,Incident Time Zone, Source, Policies, Channel,Destination, Severity, Action, Maximum Matches, Transaction Size, Status, Group Membership,OU"
     Logfilewrite(text)
 
     #Calling SQL query to output content

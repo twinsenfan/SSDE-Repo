@@ -1,0 +1,69 @@
+
+ Incident interval 2014-06-15 --- 2014-09-24
+ Incident ID, Incident Time,Incident Time Zone, Source, Policies, Channel,Destination, Severity, Action, Maximum Matches, Transaction Size, Status, Group Membership,OU
+ 131069, 2014-09-16 07:03:59, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 31, New
+ 
+ 131079, 2014-09-16 07:03:59, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 126, New
+ 
+ 131144, 2014-09-16 07:03:59, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Low, Permitted, 0, 0, New
+ 
+ 131154, 2014-09-16 07:03:59, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Low, Permitted, 0, 0, New
+ 
+ 131161, 2014-09-16 07:04:00, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 47, New
+ 
+ 131168, 2014-09-16 07:04:18, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 47, New
+ 
+ 131175, 2014-09-16 07:04:19, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 47, New
+ 
+ 131182, 2014-09-16 07:04:20, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 47, New
+ 
+ 131189, 2014-09-16 07:04:21, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 47, New
+ 
+ 131196, 2014-09-16 07:04:22, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 47, New
+ 
+ 131219, 2014-09-16 07:04:00, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 126, New
+ 
+ 131226, 2014-09-16 07:04:18, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 126, New
+ 
+ 131233, 2014-09-16 07:04:19, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 126, New
+ 
+ 131240, 2014-09-16 07:04:20, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 126, New
+ 
+ 131247, 2014-09-16 07:04:21, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 126, New
+ 
+ 131254, 2014-09-16 07:04:22, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 126, New
+ 
+ Incident interval 2014-06-17 --- 2014-09-24
+ Incident ID, Incident Time,Incident Time Zone, Source, Policies, Channel,Destination, Severity, Action, Maximum Matches, Transaction Size, Status, Group Membership,OU
+ 131069, 2014-09-16 07:03:59, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 31, New
+ 
+ 131079, 2014-09-16 07:03:59, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 126, New
+ 
+ 131144, 2014-09-16 07:03:59, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Low, Permitted, 0, 0, New
+ 
+ 131154, 2014-09-16 07:03:59, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Low, Permitted, 0, 0, New
+ 
+ 131161, 2014-09-16 07:04:00, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 47, New
+ 
+ 131168, 2014-09-16 07:04:18, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 47, New
+ 
+ 131175, 2014-09-16 07:04:19, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 47, New
+ 
+ 131182, 2014-09-16 07:04:20, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 47, New
+ 
+ 131189, 2014-09-16 07:04:21, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 47, New
+ 
+ 131196, 2014-09-16 07:04:22, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 47, New
+ 
+ 131219, 2014-09-16 07:04:00, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 126, New
+ 
+ 131226, 2014-09-16 07:04:18, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 126, New
+ 
+ 131233, 2014-09-16 07:04:19, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 126, New
+ 
+ 131240, 2014-09-16 07:04:20, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 126, New
+ 
+ 131247, 2014-09-16 07:04:21, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 126, New
+ 
+ 131254, 2014-09-16 07:04:22, GMT+08:00, 10.239.117.100, Drip policy, HTTP, fanyi.baidu.com, Medium, Permitted, 1, 126, New
+ 

@@ -1,0 +1,63 @@
+
+ Incident interval 2014-08-05 --- 2014-09-24
+ Incident ID, Date-Time, History, Comments, History Performed,Source, Destination, Action, Channel 
+ 459039, 2014-08-31 04:10:29.590000, Detected and recorded incident, None, system, src=10.239.117.67, dst=statsfe2.update.microsoft.com, Action=Permitted, channel=HTTP
+ 459039, 2014-09-04 23:18:09.760000, Changed incident status from New to Escalated, None, admin
+ 459039, 2014-09-22 20:16:03.840000, Changed incident assignment from Unassigned to Test1 , Testing assign to a admin, admin
+ 
+ 459114, 2014-08-31 13:17:55.357000, Detected and recorded incident, None, system, src=10.239.117.65, dst=statsfe2.update.microsoft.com, Action=Permitted, channel=HTTP
+ 459114, 2014-09-04 23:18:09.757000, Changed incident status from New to Escalated, None, admin
+ 
+ 459264, 2014-09-02 02:29:57.167000, Detected and recorded incident, None, system, src=10.239.117.65, dst=statsfe2.update.microsoft.com, Action=Permitted, channel=HTTP
+ 459264, 2014-09-08 23:26:10.097000, Changed incident status from New to Escalated, None, admin
+ 
+ 458750, 2014-09-02 15:12:51.183000, Detected and recorded incident, None, system, src=10.239.117.67, dst=statsfe2.update.microsoft.com, Action=Permitted, channel=HTTP
+ 458750, 2014-09-08 23:26:10.097000, Changed incident status from New to Escalated, None, admin
+ 
+ 459135, 2014-09-02 22:11:43.700000, Detected and recorded incident, None, system, src=10.239.117.65, dst=statsfe2.update.microsoft.com, Action=Permitted, channel=HTTP
+ 459135, 2014-09-08 23:26:10.093000, Changed incident status from New to Escalated, None, admin
+ 
+ 458899, 2014-09-03 12:03:34.690000, Detected and recorded incident, None, system, src=10.239.117.67, dst=statsfe2.update.microsoft.com, Action=Permitted, channel=HTTP
+ 458899, 2014-09-08 23:26:10.090000, Changed incident status from New to Escalated, None, admin
+ 
+ 459145, 2014-09-03 18:20:17.527000, Detected and recorded incident, None, system, src=10.239.117.65, dst=statsfe2.update.microsoft.com, Action=Permitted, channel=HTTP
+ 459145, 2014-09-08 23:26:10.090000, Changed incident status from New to Escalated, None, admin
+ 
+ 458761, 2014-09-04 05:46:50.777000, Detected and recorded incident, None, system, src=10.239.117.67, dst=statsfe2.update.microsoft.com, Action=Permitted, channel=HTTP
+ 458761, 2014-09-08 23:26:10.087000, Changed incident status from New to Escalated, None, admin
+ 
+ 458824, 2014-09-04 15:06:53.910000, Detected and recorded incident, None, system, src=10.239.117.65, dst=statsfe2.update.microsoft.com, Action=Permitted, channel=HTTP
+ 458824, 2014-09-04 23:17:12.560000, Changed incident status from New to Escalated, None, admin
+ 
+ 458974, 2014-09-05 01:45:53.470000, Detected and recorded incident, None, system, src=10.239.117.67, dst=statsfe2.update.microsoft.com, Action=Permitted, channel=HTTP
+ 458974, 2014-09-08 23:26:10.083000, Changed incident status from New to Escalated, None, admin
+ 
+ 459155, 2014-09-05 10:50:29.330000, Detected and recorded incident, None, system, src=10.239.117.65, dst=statsfe2.update.microsoft.com, Action=Permitted, channel=HTTP
+ 459155, 2014-09-08 23:26:10.080000, Changed incident status from New to Escalated, None, admin
+ 
+ 459414, 2014-09-05 22:43:04.580000, Detected and recorded incident, None, system, src=10.239.117.67, dst=statsfe2.update.microsoft.com, Action=Permitted, channel=HTTP
+ 459414, 2014-09-08 23:26:10.077000, Changed incident status from New to Escalated, None, admin
+ 
+ 458771, 2014-09-06 06:13:56.797000, Detected and recorded incident, None, system, src=10.239.117.65, dst=statsfe2.update.microsoft.com, Action=Permitted, channel=HTTP
+ 458771, 2014-09-08 23:26:10.073000, Changed incident status from New to Escalated, None, admin
+ 
+ 459210, 2014-09-06 18:42:27.450000, Detected and recorded incident, None, system, src=10.239.117.67, dst=statsfe2.update.microsoft.com, Action=Permitted, channel=HTTP
+ 459210, 2014-09-08 23:26:10.070000, Changed incident status from New to Escalated, None, admin
+ 459210, 2014-09-09 05:24:56.390000, Comment added , This is another test comments, admin
+ 
+ 459221, 2014-09-06 23:55:59.697000, Detected and recorded incident, None, system, src=10.239.117.65, dst=statsfe2.update.microsoft.com, Action=Permitted, channel=HTTP
+ 459221, 2014-09-08 23:26:10.070000, Changed incident status from New to Escalated, None, admin
+ 
+ 458909, 2014-09-07 16:32:31.030000, Detected and recorded incident, None, system, src=10.239.117.67, dst=statsfe2.update.microsoft.com, Action=Permitted, channel=HTTP
+ 458909, 2014-09-08 23:26:10.067000, Changed incident status from New to Escalated, None, admin
+ 
+ 458781, 2014-09-07 18:43:46.923000, Detected and recorded incident, None, system, src=10.239.117.65, dst=statsfe2.update.microsoft.com, Action=Permitted, channel=HTTP
+ 458781, 2014-09-08 23:26:10.063000, Changed incident status from New to Escalated, None, admin
+ 
+ 459489, 2014-09-08 11:44:47.860000, Detected and recorded incident, None, system, src=10.239.117.67, dst=statsfe2.update.microsoft.com, Action=Permitted, channel=HTTP
+ 459489, 2014-09-08 23:26:10.060000, Changed incident status from New to Escalated, None, admin
+ 
+ 458984, 2014-09-08 15:39:36.537000, Detected and recorded incident, None, system, src=10.239.117.65, dst=statsfe2.update.microsoft.com, Action=Permitted, channel=HTTP
+ 458984, 2014-09-08 23:26:10.060000, Changed incident status from New to Escalated, None, admin
+ 458984, 2014-09-09 05:24:16.740000, Comment added , Test comments, admin
+ 
