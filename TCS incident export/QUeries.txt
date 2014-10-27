@@ -11,3 +11,8 @@
           
 
 PAMNG. GUID -> PA_RAPO User -> Long Name
+
+
+select * from PA_REPO_GROUPS where id in (select GROUP_ID from PA_REPO_ENTRY_GROUPS where entry_id = '5a51202000767e4b8a36a0050d143ea4')
+
+Entry_ID is the guid from MNG_users OR ID from PA_REPO_Users
