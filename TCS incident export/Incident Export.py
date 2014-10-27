@@ -143,10 +143,10 @@ def SQLQuery (arg1, arg2, arg3, arg4, arg5):
                       WHEN 3 THEN 'In Process'
                       WHEN 5 THEN 'Closed'
                  END
+                ,PA_REPO_USERS.Long_Name
 
-
-          FROM dbo.PA_EVENTS_%s, [dbo].[PA_MNG_USERS], PA_RP_SERVICES
-          WHERE PA_EVENTS_%s.SOURCE_ID = PA_MNG_USERS.ID AND
+          FROM dbo.PA_EVENTS_%s, [dbo].[PA_MNG_USERS], PA_RP_SERVICES, PA_REPO_USERS
+          WHERE PA_EVENTS_%s.SOURCE_ID = PA_MNG_USERS.ID AND PA_MNG_USERS.GUID = PA_REPO_USERS.ID AND
                 dbo.PA_EVENTS_%s.INSERT_DATE <=  '%s'AND
                 dbo.PA_EVENTS_%s.INSERT_DATE >=  '%s'AND PA_EVENTS_%s.SERVICE_ID = PA_RP_SERVICES.ID ''' % (Partition, Partition, Partition, Partition, Partition, arg5, Partition,arg4, Partition))
 
@@ -211,8 +211,8 @@ total = len(sys.argv)
 
 #checking length of cmd string, exit and prompt syntax
 if total != 5:
-    print ("Error, incorrect Syntax!")
-    print ("Usage: Script <SQL Server IP> <SQL Username> <Password> <Date Range> ")
+    print("Error, incorrect Syntax!")
+    print("Usage: Script <SQL Server IP> <SQL Username> <Password> <Date Range> ")
     sys.exit()
 
 else:
