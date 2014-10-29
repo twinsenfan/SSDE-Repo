@@ -16,3 +16,61 @@ PAMNG. GUID -> PA_RAPO User -> Long Name
 select * from PA_REPO_GROUPS where id in (select GROUP_ID from PA_REPO_ENTRY_GROUPS where entry_id = '5a51202000767e4b8a36a0050d143ea4')
 
 Entry_ID is the guid from MNG_users OR ID from PA_REPO_Users
+
+
+
+select name from PA_REPO_GROUPS 
+  WHERE ID in 
+  (select group_id from PA_REPO_ENTRY_GROUPS where ENTRY_ID = '5a51202000767e4b8a36a0050d143ea4')
+
+
+Getting the group in a row
+
+select 
+  (Stuff ((Select ', ' + name from PA_REPO_GROUPS 
+  where ID IN (select group_id from PA_REPO_ENTRY_GROUPS where ENTRY_ID = '5a51202000767e4b8a36a0050d143ea4')
+  FOR XML PATH('')) ,1,2,''))
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++
+SELECT PA_EVENTS_20140902.ID
+                ,DETECT_DATE_TS
+                ,DETECT_DATE_TZ
+                ,PA_MNG_USERS.common_name
+                ,POLICY_CATEGORIES
+                ,PA_RP_SERVICES.DESCRIPTION
+                ,[DESTINATIONS]
+                ,CASE SENSITIVITY_ID
+                        WHEN 1 THEN 'High'
+                        WHEN 2 THEN 'Medium'
+                        WHEN 3 THEN 'Low'
+                 END
+
+                ,CASE PA_EVENTS_20140902.ACTION_TYPE
+						WHEN 1 THEN 'Audited'
+						WHEN 100 THEN 'Quarantined'
+						WHEN 2 THEN 'Blocked'
+						WHEN 3 THEN 'Encrypted'
+ 						WHEN 4 THEN 'Released'
+						WHEN 5 THEN 'Run Command'
+						WHEN 6 THEN 'Permitted'
+						WHEN 7 THEN 'Notify'
+						WHEN 8 THEN 'Endpoint Confirm Abort'
+						WHEN 9 THEN 'Endpoint Confirm Continue'
+						WHEN 10 THEN 'Endpoint Run Command'
+						WHEN 11 THEN 'Drop attachments'
+						WHEN 13 THEN 'Encrypt with Password'
+				END
+                ,TOTAL_MATCHES
+                ,TOTAL_SIZE
+                ,CASE STATUS 
+                      WHEN 1 THEN 'New'
+                      WHEN 3 THEN 'In Process'
+                      WHEN 5 THEN 'Closed'
+                 END
+                ,PA_REPO_USERS.Long_Name
+
+          FROM dbo.PA_EVENTS_20140902, [dbo].[PA_MNG_USERS], PA_RP_SERVICES, PA_REPO_USERS
+          WHERE PA_EVENTS_20140902.SOURCE_ID = PA_MNG_USERS.ID AND PA_MNG_USERS.GUID = PA_REPO_USERS.ID 
