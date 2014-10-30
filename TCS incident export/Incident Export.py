@@ -1,6 +1,7 @@
 __author__ = 'tfan'
 
 import pypyodbc
+import datetime
 import time
 import os
 from datetime import datetime
@@ -79,6 +80,7 @@ def Logfilewrite (str1):
 def SQLQuery (arg1, arg2, arg3, arg4, arg5):
     #Variable holds the name of online_active partition
     partition = 0
+    tempstring = ''
 
     # Get a connection to MSSQL ODBC DSN via pypyodbc, and assign it to conn
     conn= pypyodbc.connect(driver='{SQL Server}', server='%s' % arg1, database='wbsn-data-security', uid='%s' % arg2, pwd='%s' % arg3)
@@ -135,7 +137,7 @@ def SQLQuery (arg1, arg2, arg3, arg4, arg5):
 						WHEN 10 THEN 'Endpoint Run Command'
 						WHEN 11 THEN 'Drop attachments'
 						WHEN 13 THEN 'Encrypt with Password'
-				END
+				 END
                 ,TOTAL_MATCHES
                 ,TOTAL_SIZE
                 ,CASE STATUS
@@ -163,15 +165,29 @@ def SQLQuery (arg1, arg2, arg3, arg4, arg5):
     # Print the table, one row per line
     for row in cur.fetchall():
         n = 0
-
+        incidentID  = ''
         for field in row:
+
+            #print('N is ', n)
             if n == 0:
 
+                #print('Message 0 is ', message)
                 message = message  + '%s' % field
+                incidentID  = field
+                #print('Field is ', field)
+                #print('Message 0 result is ', message)
+
+            elif n == 12:
+                #Do something to remove the , and replace with " "
+                #tempstring = field
+                #print('Message 12 is ',message)
+                message = message  + ', %s' % field.replace(",", " ")
 
             else:
-
+                #print('Message else entry is ', message)
                 message = message  + ', %s' % field
+                #print('Field else is ', field)
+                #print('Message else result is ', message)
 
             n += 1
 
@@ -179,14 +195,37 @@ def SQLQuery (arg1, arg2, arg3, arg4, arg5):
             #print(field)
 
         #[Debug]print out constructed message to screen, same as the one output to file
-        print(message)
+        #print(incidentID)
+        #print(message)
+
+        # Give me a cursor so I can operate the database with the cursor
+        curGroup = conn.cursor()
+
+        curGroup.execute('''
+                        select
+                        (Stuff ( ( Select ' - ' + PA_REPO_GROUPS.NAME from PA_REPO_GROUPS where ID in
+				            (Select PA_REPO_ENTRY_GROUPS.GROUP_ID from PA_REPO_ENTRY_GROUPS where PA_REPO_ENTRY_GROUPS.ENTRY_ID =
+                    					(Select GUID from PA_MNG_USERS where ID =
+							                    (SELECT SOURCE_ID
+								                        FROM [dbo].[PA_EVENTS_%s]
+								                        where [dbo].[PA_EVENTS_%s].ID = %s
+							                    )
+					                    )
+				            )FOR XML PATH('')) ,1,2,''))''' % (Partition, Partition, incidentID))
+
+        #this is to append group name to the result
+        for row1 in curGroup.fetchall():
+            for field in row1:
+
+                message = message  + ', %s' % field
+
+            print(message)
 
         #[Debug]: Write the entry to log file as well
         Logfilewrite(message)
 
-
         #[Debug] print out number of record for each calling of SQL function
-        #print('Value of j is ', j)
+         #print('Value of j is ', j)
 
         #produce a new line in the log file to split each incident
         message = ''
@@ -230,26 +269,28 @@ else:
     os.system('cls')
     print('Incident output script started:')
 
-
     #calculate current date
-    TimeUpperboundary = date.today()
+    #this is the realy one passed to SQL to search data include today (actually today date + 2 so we have today's data)
+    TimeUpperboundary = date.today() + (timedelta(2))
+
+    #this is the one displayed in log and screen for the actual date
+    tempTimeUpperboundary = date.today()
 
     #calcualte date by minus the input interval from command line
     TimeLowerboundary=date.today() - (timedelta(Range))
 
     #[DEBUG]: Print out start time and end time
-    print('Incident interval', TimeLowerboundary, '---', TimeUpperboundary)
-    text = 'Incident interval %s --- %s' % (TimeLowerboundary, TimeUpperboundary)
+    print('Incident interval', TimeLowerboundary, '---', tempTimeUpperboundary)
+    text = 'Incident interval %s --- %s' % (TimeLowerboundary, tempTimeUpperboundary)
     Logfilewrite(text)
 
-    text = "Incident ID, Incident Time,Incident Time Zone, Source, Policies, Channel,Destination, Severity, Action, Maximum Matches, Transaction Size, Status, Group Membership,OU"
+    text = "Incident ID, Incident Time,Incident Time Zone, Source, Policies, Channel,Destination, Severity, Action, Maximum Matches, Transaction Size, Status, OU, Group Membership"
     Logfilewrite(text)
 
     #Calling SQL query to output content
     SQLQuery(Server, Username, Password, TimeLowerboundary, TimeUpperboundary)
 
-    #Print total incident processed in this loop
-    #print('Total incident processed: ', Totalincident)
+
 
 
 
