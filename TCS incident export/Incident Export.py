@@ -114,6 +114,7 @@ def SQLQuery (arg1, arg2, arg3, arg4, arg5):
                 ,DETECT_DATE_TS
                 ,DETECT_DATE_TZ
                 ,PA_MNG_USERS.common_name
+                ,PA_MNG_USER_LDAP_PROPS.VALUE
                 ,POLICY_CATEGORIES
                 ,PA_RP_SERVICES.DESCRIPTION
                 ,[DESTINATIONS]
@@ -147,10 +148,12 @@ def SQLQuery (arg1, arg2, arg3, arg4, arg5):
                  END
                 ,PA_REPO_USERS.Long_Name
 
-          FROM dbo.PA_EVENTS_%s, [dbo].[PA_MNG_USERS], PA_RP_SERVICES, PA_REPO_USERS
+          FROM dbo.PA_EVENTS_%s, [dbo].[PA_MNG_USERS], PA_RP_SERVICES, PA_REPO_USERS,PA_MNG_USER_LDAP_PROPS
           WHERE PA_EVENTS_%s.SOURCE_ID = PA_MNG_USERS.ID AND PA_MNG_USERS.GUID = PA_REPO_USERS.ID AND
                 dbo.PA_EVENTS_%s.INSERT_DATE <=  '%s'AND
-                dbo.PA_EVENTS_%s.INSERT_DATE >=  '%s'AND PA_EVENTS_%s.SERVICE_ID = PA_RP_SERVICES.ID ''' % (Partition, Partition, Partition, Partition, Partition, arg5, Partition,arg4, Partition))
+                dbo.PA_EVENTS_%s.INSERT_DATE >=  '%s'AND
+                PA_EVENTS_%s.SERVICE_ID = PA_RP_SERVICES.ID AND
+                PA_MNG_USER_LDAP_PROPS.USER_ID = PA_MNG_USERS.id AND PA_MNG_USER_LDAP_PROPS.name='wbsn_manager_name' ''' % (Partition, Partition, Partition, Partition, Partition, arg5, Partition,arg4, Partition))
 
     # Print the table headers (column descriptions)
     #for d in cur.description:

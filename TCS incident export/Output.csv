@@ -1,161 +1,293 @@
 
- Incident interval 2014-09-30 --- 2014-10-30
+ Incident interval 2014-10-26 --- 2014-12-25
  Incident ID, Incident Time,Incident Time Zone, Source, Policies, Channel,Destination, Severity, Action, Maximum Matches, Transaction Size, Status, OU, Group Membership
- 295586, 2014-10-27 10:42:34, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230113, 2014-12-24 15:05:27, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295374, 2014-10-27 10:42:35, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 229769, 2014-12-24 15:05:42, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295600, 2014-10-27 10:42:37, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230654, 2014-12-24 15:05:44, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295387, 2014-10-27 10:42:38, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 229783, 2014-12-24 15:05:47, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295453, 2014-10-27 10:42:39, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230668, 2014-12-24 15:05:48, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295210, 2014-10-27 10:42:41, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 229797, 2014-12-24 15:05:48, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295613, 2014-10-29 11:33:27, GMT+08:00, Twinsen Fan, Keyword Test Policy, Endpoint Removable Media, SanDisk U3 Cruzer Micro, Medium, Encrypted, 1, 10532, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230682, 2014-12-24 15:05:48, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295160, 2014-10-29 11:36:37, GMT+08:00, Twinsen Fan, Keyword Test Policy, Endpoint Removable Media, SanDisk U3 Cruzer Micro, Medium, Encrypted, 2, 13297, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230696, 2014-12-24 15:05:49, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295010, 2014-10-29 11:36:46, GMT+08:00, Twinsen Fan, Keyword Test Policy, Endpoint Removable Media, SanDisk U3 Cruzer Micro, Medium, Encrypted, 2, 13212, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 229811, 2014-12-24 15:05:49, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- Incident interval 2014-10-01 --- 2014-10-31
- Incident ID, Incident Time,Incident Time Zone, Source, Policies, Channel,Destination, Severity, Action, Maximum Matches, Transaction Size, Status, OU, Group Membership
- 295586, 2014-10-27 10:42:34, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230710, 2014-12-24 15:05:49, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295374, 2014-10-27 10:42:35, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230725, 2014-12-24 15:05:50, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295600, 2014-10-27 10:42:37, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230799, 2014-12-24 15:05:50, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295387, 2014-10-27 10:42:38, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230813, 2014-12-24 15:05:50, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295453, 2014-10-27 10:42:39, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230356, 2014-12-24 15:08:30, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295210, 2014-10-27 10:42:41, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230484, 2014-12-24 15:08:31, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295613, 2014-10-29 11:33:27, GMT+08:00, Twinsen Fan, Keyword Test Policy, Endpoint Removable Media, SanDisk U3 Cruzer Micro, Medium, Encrypted, 1, 10532, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230370, 2014-12-24 15:08:31, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295160, 2014-10-29 11:36:37, GMT+08:00, Twinsen Fan, Keyword Test Policy, Endpoint Removable Media, SanDisk U3 Cruzer Micro, Medium, Encrypted, 2, 13297, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230873, 2014-12-24 15:08:31, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295010, 2014-10-29 11:36:46, GMT+08:00, Twinsen Fan, Keyword Test Policy, Endpoint Removable Media, SanDisk U3 Cruzer Micro, Medium, Encrypted, 2, 13212, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230384, 2014-12-24 15:08:32, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 327671, 2014-10-30 13:12:16, GMT+08:00, Twinsen Fan, Source Code; Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 1, 6150, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230887, 2014-12-24 15:08:32, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 327746, 2014-10-30 13:13:06, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 21, 9158, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230398, 2014-12-24 15:08:32, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 327821, 2014-10-30 13:13:09, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 21, 9158, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230901, 2014-12-24 15:08:33, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 327759, 2014-10-30 13:13:11, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 21, 9158, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230412, 2014-12-24 15:08:33, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 327834, 2014-10-30 13:13:13, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 21, 9158, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230915, 2014-12-24 15:08:33, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- Incident interval 2014-09-30 --- 2014-10-30
- Incident ID, Incident Time,Incident Time Zone, Source, Policies, Channel,Destination, Severity, Action, Maximum Matches, Transaction Size, Status, OU, Group Membership
- 295586, 2014-10-27 10:42:34, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230951, 2014-12-24 15:08:34, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295374, 2014-10-27 10:42:35, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230929, 2014-12-24 15:08:34, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295600, 2014-10-27 10:42:37, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230965, 2014-12-24 15:08:34, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295387, 2014-10-27 10:42:38, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230943, 2014-12-24 15:08:35, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295453, 2014-10-27 10:42:39, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230979, 2014-12-24 15:08:35, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295210, 2014-10-27 10:42:41, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 231032, 2014-12-24 15:08:35, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295613, 2014-10-29 11:33:27, GMT+08:00, Twinsen Fan, Keyword Test Policy, Endpoint Removable Media, SanDisk U3 Cruzer Micro, Medium, Encrypted, 1, 10532, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230993, 2014-12-24 15:08:36, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295160, 2014-10-29 11:36:37, GMT+08:00, Twinsen Fan, Keyword Test Policy, Endpoint Removable Media, SanDisk U3 Cruzer Micro, Medium, Encrypted, 2, 13297, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 231046, 2014-12-24 15:08:36, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295010, 2014-10-29 11:36:46, GMT+08:00, Twinsen Fan, Keyword Test Policy, Endpoint Removable Media, SanDisk U3 Cruzer Micro, Medium, Encrypted, 2, 13212, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 231007, 2014-12-24 15:08:36, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 327671, 2014-10-30 13:12:16, GMT+08:00, Twinsen Fan, Source Code; Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 1, 6150, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 231060, 2014-12-24 15:08:37, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 327746, 2014-10-30 13:13:06, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 21, 9158, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 231096, 2014-12-24 15:08:37, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 327821, 2014-10-30 13:13:09, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 21, 9158, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 231074, 2014-12-24 15:08:37, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 327759, 2014-10-30 13:13:11, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 21, 9158, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 231110, 2014-12-24 15:08:38, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 327834, 2014-10-30 13:13:13, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 21, 9158, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 231088, 2014-12-24 15:08:38, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- Incident interval 2014-09-30 --- 2014-10-30
- Incident ID, Incident Time,Incident Time Zone, Source, Policies, Channel,Destination, Severity, Action, Maximum Matches, Transaction Size, Status, OU, Group Membership
- 295586, 2014-10-27 10:42:34, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 231177, 2014-12-24 15:08:38, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295374, 2014-10-27 10:42:35, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 231124, 2014-12-24 15:08:39, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295600, 2014-10-27 10:42:37, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 231191, 2014-12-24 15:08:39, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295387, 2014-10-27 10:42:38, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 231138, 2014-12-24 15:08:39, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295453, 2014-10-27 10:42:39, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 231205, 2014-12-24 15:08:40, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295210, 2014-10-27 10:42:41, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 231152, 2014-12-24 15:08:40, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295613, 2014-10-29 11:33:27, GMT+08:00, Twinsen Fan, Keyword Test Policy, Endpoint Removable Media, SanDisk U3 Cruzer Micro, Medium, Encrypted, 1, 10532, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 231219, 2014-12-24 15:08:41, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295160, 2014-10-29 11:36:37, GMT+08:00, Twinsen Fan, Keyword Test Policy, Endpoint Removable Media, SanDisk U3 Cruzer Micro, Medium, Encrypted, 2, 13297, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 231233, 2014-12-24 15:08:41, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295010, 2014-10-29 11:36:46, GMT+08:00, Twinsen Fan, Keyword Test Policy, Endpoint Removable Media, SanDisk U3 Cruzer Micro, Medium, Encrypted, 2, 13212, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 231166, 2014-12-24 15:08:42, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 327671, 2014-10-30 13:12:16, GMT+08:00, Twinsen Fan, Source Code; Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 1, 6150, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 231255, 2014-12-24 15:08:42, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 327746, 2014-10-30 13:13:06, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 21, 9158, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 231322, 2014-12-24 15:08:44, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 327821, 2014-10-30 13:13:09, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 21, 9158, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 231269, 2014-12-24 15:08:44, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 327759, 2014-10-30 13:13:11, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 21, 9158, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230305, 2014-12-24 15:26:22, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, twinsentfan@tfantestdomain.com, Medium, Blocked, 1, 13824, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 327834, 2014-10-30 13:13:13, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 21, 9158, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230577, 2014-12-24 15:26:23, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, twinsentfan@tfantestdomain.com, Medium, Blocked, 1, 13824, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- Incident interval 2014-09-30 --- 2014-10-30
- Incident ID, Incident Time,Incident Time Zone, Source, Policies, Channel,Destination, Severity, Action, Maximum Matches, Transaction Size, Status, OU, Group Membership
- 295586, 2014-10-27 10:42:34, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230317, 2014-12-24 15:26:23, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, twinsentfan@tfantestdomain.com, Medium, Blocked, 1, 13824, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295374, 2014-10-27 10:42:35, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 229919, 2014-12-24 15:26:24, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, twinsentfan@tfantestdomain.com, Medium, Blocked, 1, 13824, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295600, 2014-10-27 10:42:37, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230588, 2014-12-24 15:26:24, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, twinsentfan@tfantestdomain.com, Medium, Blocked, 1, 13824, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295387, 2014-10-27 10:42:38, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 229930, 2014-12-24 15:26:24, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, twinsentfan@tfantestdomain.com, Medium, Blocked, 1, 13824, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295453, 2014-10-27 10:42:39, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230599, 2014-12-24 15:26:28, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, twinsentfan@tfantestdomain.com, Medium, Blocked, 1, 13824, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295210, 2014-10-27 10:42:41, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230610, 2014-12-24 15:26:28, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, twinsentfan@tfantestdomain.com, Medium, Blocked, 1, 13824, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295613, 2014-10-29 11:33:27, GMT+08:00, Twinsen Fan, Keyword Test Policy, Endpoint Removable Media, SanDisk U3 Cruzer Micro, Medium, Encrypted, 1, 10532, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 229941, 2014-12-24 15:26:29, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, twinsentfan@tfantestdomain.com, Medium, Blocked, 1, 13824, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295160, 2014-10-29 11:36:37, GMT+08:00, Twinsen Fan, Keyword Test Policy, Endpoint Removable Media, SanDisk U3 Cruzer Micro, Medium, Encrypted, 2, 13297, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230621, 2014-12-24 15:26:29, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, twinsentfan@tfantestdomain.com, Medium, Blocked, 1, 13824, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295010, 2014-10-29 11:36:46, GMT+08:00, Twinsen Fan, Keyword Test Policy, Endpoint Removable Media, SanDisk U3 Cruzer Micro, Medium, Encrypted, 2, 13212, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 229952, 2014-12-24 15:26:29, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, twinsentfan@tfantestdomain.com, Medium, Blocked, 1, 13824, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- Incident interval 2014-09-30 --- 2014-10-30
- Incident ID, Incident Time,Incident Time Zone, Source, Policies, Channel,Destination, Severity, Action, Maximum Matches, Transaction Size, Status, OU, Group Membership
- 295586, 2014-10-27 10:42:34, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 229580, 2014-12-16 11:43:50, GMT+08:00, 王二., Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 1, 26112, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295374, 2014-10-27 10:42:35, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 229970, 2014-12-16 11:43:51, GMT+08:00, 王二., Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 1, 26112, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295600, 2014-10-27 10:42:37, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 229593, 2014-12-16 11:43:51, GMT+08:00, 王二., Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 1, 26112, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295387, 2014-10-27 10:42:38, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 229982, 2014-12-16 11:43:52, GMT+08:00, 王二., Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 1, 26112, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295453, 2014-10-27 10:42:39, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230055, 2014-12-16 11:43:52, GMT+08:00, 王二., Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 1, 26112, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295210, 2014-10-27 10:42:41, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 20, 8299, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 229994, 2014-12-16 11:43:52, GMT+08:00, 王二., Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 1, 26112, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295613, 2014-10-29 11:33:27, GMT+08:00, Twinsen Fan, Keyword Test Policy, Endpoint Removable Media, SanDisk U3 Cruzer Micro, Medium, Encrypted, 1, 10532, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230067, 2014-12-16 11:43:53, GMT+08:00, 王二., Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 1, 26112, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295160, 2014-10-29 11:36:37, GMT+08:00, Twinsen Fan, Keyword Test Policy, Endpoint Removable Media, SanDisk U3 Cruzer Micro, Medium, Encrypted, 2, 13297, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230079, 2014-12-16 11:43:53, GMT+08:00, 王二., Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 1, 26112, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 295010, 2014-10-29 11:36:46, GMT+08:00, Twinsen Fan, Keyword Test Policy, Endpoint Removable Media, SanDisk U3 Cruzer Micro, Medium, Encrypted, 2, 13212, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 230006, 2014-12-16 11:43:53, GMT+08:00, 王二., Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 1, 26112, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 327671, 2014-10-30 13:12:16, GMT+08:00, Twinsen Fan, Source Code; Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 1, 6150, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 229370, 2014-12-16 11:05:37, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 1, 26112, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 327746, 2014-10-30 13:13:06, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 21, 9158, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 229520, 2014-12-16 11:05:46, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 1, 26112, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 327821, 2014-10-30 13:13:09, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 21, 9158, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 229532, 2014-12-16 11:08:40, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 1, 26112, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 327759, 2014-10-30 13:13:11, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 21, 9158, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 229745, 2014-12-16 11:10:38, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 1, 26112, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
- 327834, 2014-10-30 13:13:13, GMT+08:00, Twinsen Fan, Keyword Test Policy, SMTP, twinsentfan@tfantestdomain.com, Medium, Quarantined, 21, 9158, New, CN=Twinsen Fan OU=TestOU1 OU=Domain Controllers DC=TfanTestDomain DC=com,  TestGroup3 - Domain Users - TestGroup1 - TestGroup2 - TestOU1
+ 229820, 2014-12-16 11:17:11, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 1, 26112, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 229895, 2014-12-16 11:29:28, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 1, 26112, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 229832, 2014-12-17 13:11:35, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 1, 26624, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230091, 2014-12-17 13:11:38, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 1, 26624, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 229416, 2014-12-17 13:12:39, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 1, 26624, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 229844, 2014-12-17 13:12:41, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 1, 26624, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 229428, 2014-12-23 10:53:44, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 1, 26112, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 229865, 2014-12-23 10:53:47, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 1, 26112, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230039, 2014-12-23 10:58:03, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 1, 26112, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230506, 2014-12-23 10:58:10, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 1, 26112, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 229878, 2014-12-23 10:59:47, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 1, 26112, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230471, 2014-12-23 10:59:54, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 1, 26112, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230113, 2014-12-24 15:05:27, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 229769, 2014-12-24 15:05:42, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230654, 2014-12-24 15:05:44, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 229783, 2014-12-24 15:05:47, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230668, 2014-12-24 15:05:48, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 229797, 2014-12-24 15:05:48, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230682, 2014-12-24 15:05:48, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230696, 2014-12-24 15:05:49, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 229811, 2014-12-24 15:05:49, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230710, 2014-12-24 15:05:49, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230725, 2014-12-24 15:05:50, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230799, 2014-12-24 15:05:50, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230813, 2014-12-24 15:05:50, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230356, 2014-12-24 15:08:30, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230484, 2014-12-24 15:08:31, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230370, 2014-12-24 15:08:31, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230873, 2014-12-24 15:08:31, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230384, 2014-12-24 15:08:32, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230887, 2014-12-24 15:08:32, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230398, 2014-12-24 15:08:32, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230901, 2014-12-24 15:08:33, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230412, 2014-12-24 15:08:33, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230915, 2014-12-24 15:08:33, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230951, 2014-12-24 15:08:34, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230929, 2014-12-24 15:08:34, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230965, 2014-12-24 15:08:34, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230943, 2014-12-24 15:08:35, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230979, 2014-12-24 15:08:35, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 231032, 2014-12-24 15:08:35, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230993, 2014-12-24 15:08:36, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 231046, 2014-12-24 15:08:36, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 231007, 2014-12-24 15:08:36, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 231060, 2014-12-24 15:08:37, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 231096, 2014-12-24 15:08:37, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 231074, 2014-12-24 15:08:37, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 231110, 2014-12-24 15:08:38, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 231088, 2014-12-24 15:08:38, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 231177, 2014-12-24 15:08:38, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 231124, 2014-12-24 15:08:39, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 231191, 2014-12-24 15:08:39, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 231138, 2014-12-24 15:08:39, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 231205, 2014-12-24 15:08:40, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 231152, 2014-12-24 15:08:40, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 231219, 2014-12-24 15:08:41, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 231233, 2014-12-24 15:08:41, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 231166, 2014-12-24 15:08:42, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 231255, 2014-12-24 15:08:42, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 231322, 2014-12-24 15:08:44, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 231269, 2014-12-24 15:08:44, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, rogerwu@tfantestdomain.com, Medium, Blocked, 5, 30720, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230305, 2014-12-24 15:26:22, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, twinsentfan@tfantestdomain.com, Medium, Blocked, 1, 13824, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230577, 2014-12-24 15:26:23, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, twinsentfan@tfantestdomain.com, Medium, Blocked, 1, 13824, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230317, 2014-12-24 15:26:23, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, twinsentfan@tfantestdomain.com, Medium, Blocked, 1, 13824, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 229919, 2014-12-24 15:26:24, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, twinsentfan@tfantestdomain.com, Medium, Blocked, 1, 13824, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230588, 2014-12-24 15:26:24, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, twinsentfan@tfantestdomain.com, Medium, Blocked, 1, 13824, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 229930, 2014-12-24 15:26:24, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, twinsentfan@tfantestdomain.com, Medium, Blocked, 1, 13824, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230599, 2014-12-24 15:26:28, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, twinsentfan@tfantestdomain.com, Medium, Blocked, 1, 13824, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230610, 2014-12-24 15:26:28, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, twinsentfan@tfantestdomain.com, Medium, Blocked, 1, 13824, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 229941, 2014-12-24 15:26:29, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, twinsentfan@tfantestdomain.com, Medium, Blocked, 1, 13824, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 230621, 2014-12-24 15:26:29, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, twinsentfan@tfantestdomain.com, Medium, Blocked, 1, 13824, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 229952, 2014-12-24 15:26:29, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, twinsentfan@tfantestdomain.com, Medium, Blocked, 1, 13824, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
