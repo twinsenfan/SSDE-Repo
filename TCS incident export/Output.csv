@@ -291,3 +291,7 @@
  
  229952, 2014-12-24 15:26:29, GMT+08:00, Twinsen Fan, Roger Wu, OCR Test policy, Endpoint Email, twinsentfan@tfantestdomain.com, Medium, Blocked, 1, 13824, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
  
+ Incident interval 2014-06-08 --- 2014-12-25
+ Incident ID, Incident Time,Incident Time Zone, Source, Policies, Channel,Destination, Severity, Action, Maximum Matches, Transaction Size, Status, OU, Group Membership
+ Incident interval 2014-06-08 --- 2014-12-25
+ Incident ID, Incident Time,Incident Time Zone, Source, Policies, Channel,Destination, Severity, Action, Maximum Matches, Transaction Size, Status, OU, Group Membership
