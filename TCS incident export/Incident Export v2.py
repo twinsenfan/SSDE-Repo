@@ -287,7 +287,7 @@ else:
     text = 'Incident interval %s --- %s' % (TimeLowerboundary, tempTimeUpperboundary)
     Logfilewrite(text)
 
-    text = "Incident ID, Incident Time,Incident Time Zone, Source, Policies, Channel,Destination, Severity, Action, Maximum Matches, Transaction Size, Status, OU, Group Membership"
+    text = "Incident ID, Incident Time,Incident Time Zone, Source, Manager, Policies, Channel,Destination, Severity, Action, Maximum Matches, Transaction Size, Status, OU, Group Membership"
     Logfilewrite(text)
 
     #Calling SQL query to output content
