@@ -27,10 +27,12 @@ select name from PA_REPO_GROUPS
 Getting the group in a row
 
 select 
-  (Stuff ((Select ', ' + name from PA_REPO_GROUPS 
-  where ID IN (select group_id from PA_REPO_ENTRY_GROUPS where ENTRY_ID = '5a51202000767e4b8a36a0050d143ea4')
+  (Stuff ((Select ', ' + PA_REPO_GROUPS.name from PA_REPO_GROUPS 
+  where PA_REPO_GROUPS.ID IN (select PA_REPO_ENTRY_GROUPS.group_id from PA_REPO_ENTRY_GROUPS where ENTRY_ID = '5a51202000767e4b8a36a0050d143ea4')
   FOR XML PATH('')) ,1,2,''))
 
+<<<<<<< HEAD
+=======
 
 
 
@@ -74,3 +76,20 @@ SELECT PA_EVENTS_20140902.ID
 
           FROM dbo.PA_EVENTS_20140902, [dbo].[PA_MNG_USERS], PA_RP_SERVICES, PA_REPO_USERS
           WHERE PA_EVENTS_20140902.SOURCE_ID = PA_MNG_USERS.ID AND PA_MNG_USERS.GUID = PA_REPO_USERS.ID 
+
+
+
+
+Select
+
+	(Stuff ( ( Select ' - ' + PA_REPO_GROUPS.NAME from PA_REPO_GROUPS where ID in 
+				(Select PA_REPO_ENTRY_GROUPS.GROUP_ID from PA_REPO_ENTRY_GROUPS where PA_REPO_ENTRY_GROUPS.ENTRY_ID =
+ 
+					(Select GUID from PA_MNG_USERS where ID = 
+							(SELECT SOURCE_ID 
+								FROM [wbsn-data-security].[dbo].[PA_EVENTS_20140902]
+								where [PA_EVENTS_20140902].ID = 295586
+							)
+					)
+				 )FOR XML PATH('')) ,1,2,''))
+>>>>>>> origin/master
