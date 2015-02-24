@@ -1,0 +1,53 @@
+
+ Incident interval 2014-04-02 --- 2015-01-27
+ Incident ID, Incident Time,Incident Time Zone, Source, Manager, Policies, Channel,Destination, Severity, Action, Maximum Matches, Transaction Size, Status, OU, Group Membership
+ 393817, 2014-12-08 12:14:01, GMT+08:00, Twinsen Fan, Roger Wu, Keyword Test Policy, SMTP, test1@tfantestdomain.com, Medium, Released, 1, 2957, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 393661, 2014-12-08 12:16:36, GMT+08:00, Twinsen Fan, Roger Wu, Keyword Test Policy, SMTP, rogewu@tfantestdomain.com, Medium, Released, 3, 3051, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 393460, 2014-12-08 12:16:59, GMT+08:00, Twinsen Fan, Roger Wu, Keyword Test Policy, SMTP, rogewu@tfantestdomain.com, Medium, Released, 5, 3094, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 393367, 2014-12-08 12:23:35, GMT+08:00, Twinsen Fan, Roger Wu, Keyword Test Policy, SMTP, rogerwu@tfantestdomain.com, Medium, Quarantined, 4, 3615, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 393748, 2014-12-08 12:25:01, GMT+08:00, Twinsen Fan, Roger Wu, Keyword Test Policy, SMTP, rogerwu@tfantestdomain.com, Medium, Quarantined, 4, 5294, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 393378, 2014-12-08 12:29:25, GMT+08:00, Twinsen Fan, Roger Wu, Keyword Test Policy, SMTP, rogerwu@tfantestdomain.com, Medium, Quarantined, 4, 7425, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 393471, 2014-12-08 12:48:05, GMT+08:00, Twinsen Fan, Roger Wu, Keyword Test Policy, SMTP, rogerwu@tfantestdomain.com, Medium, Quarantined, 4, 9070, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 393674, 2014-12-08 12:50:30, GMT+08:00, Twinsen Fan, Roger Wu, Keyword Test Policy, SMTP, rogerwu@tfantestdomain.com, Medium, Quarantined, 4, 9070, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 393316, 2014-12-08 12:55:58, GMT+08:00, Twinsen Fan, Roger Wu, Keyword Test Policy, SMTP, test1@tfantestdomain.com, Medium, Quarantined, 4, 9066, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 393326, 2014-12-08 13:06:20, GMT+08:00, Twinsen Fan, Roger Wu, Keyword Test Policy, SMTP, rogerwu@tfantestdomain.com, Medium, Quarantined, 4, 9070, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 393828, 2014-12-08 13:07:56, GMT+08:00, Twinsen Fan, Roger Wu, Keyword Test Policy, SMTP, rogerwu@tfantestdomain.com, Medium, Quarantined, 4, 9070, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 393517, 2014-12-08 13:08:06, GMT+08:00, Twinsen Fan, Roger Wu, Keyword Test Policy, SMTP, test1@tfantestdomain.com, Medium, Quarantined, 4, 10703, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 425972, 2014-12-08 13:24:33, GMT+08:00, Twinsen Fan, Roger Wu, Keyword Test Policy, SMTP, test1@tfantestdomain.com, Medium, Quarantined, 4, 12344, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 426047, 2014-12-08 13:36:44, GMT+08:00, Twinsen Fan, Roger Wu, Keyword Test Policy, SMTP, test1@tfantestdomain.com, Medium, Permitted, 4, 12344, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 426197, 2014-12-08 13:36:48, GMT+08:00, Twinsen Fan, Roger Wu, Keyword Test Policy, SMTP, test1@tfantestdomain.com, Medium, Permitted, 4, 12344, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 426347, 2014-12-08 13:51:37, GMT+08:00, Twinsen Fan, Roger Wu, Keyword Test Policy, SMTP, test1@tfantestdomain.com, Medium, Permitted, 4, 13985, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 426497, 2014-12-08 13:55:39, GMT+08:00, Twinsen Fan, Roger Wu, Keyword Test Policy, SMTP, test1@tfantestdomain.com, Medium, Permitted, 4, 13985, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 426572, 2014-12-08 13:57:43, GMT+08:00, Twinsen Fan, Roger Wu, Keyword Test Policy, SMTP, test1@tfantestdomain.com, Medium, Permitted, 4, 13985, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 426357, 2014-12-10 11:48:30, GMT+08:00, Twinsen Fan, Roger Wu, Keyword Test Policy, SMTP, rogerwu@tfantestdomain.com, Medium, Permitted, 2, 22934, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 557040, 2014-12-23 07:00:16, GMT+08:00, Twinsen Fan, Roger Wu, Keyword Test Policy, SMTP, rogerwu@tfantestdomain.com, Medium, Released, 1, 13098, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 557115, 2014-12-23 07:00:31, GMT+08:00, Twinsen Fan, Roger Wu, Keyword Test Policy, SMTP, rogerwu@tfantestdomain.com, Medium, Released, 2, 14810, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 557415, 2014-12-23 07:07:59, GMT+08:00, Twinsen Fan, Roger Wu, Keyword Test Policy, SMTP, rogerwu@tfantestdomain.com, Medium, Released, 3, 16577, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 557428, 2014-12-23 07:09:43, GMT+08:00, Twinsen Fan, Roger Wu, Keyword Test Policy, SMTP, rogerwu@tfantestdomain.com, Medium, Quarantined, 3, 16577, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 557640, 2014-12-23 07:18:07, GMT+08:00, Twinsen Fan, Roger Wu, Keyword Test Policy, SMTP, rogerwu@tfantestdomain.com, Medium, Quarantined, 4, 18238, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
+ 557441, 2014-12-23 07:18:12, GMT+08:00, Twinsen Fan, Roger Wu, Keyword Test Policy, SMTP, rogerwu@tfantestdomain.com, Medium, Quarantined, 4, 18238, New, CN=Twinsen Fan,CN=Users,DC=TfanTestDomain,DC=com,  TestGroup3 - Users - Domain Users - TestGroup1 - TestGroup2
+ 
