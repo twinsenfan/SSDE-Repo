@@ -91,5 +91,9 @@ Select
 								where [PA_EVENTS_20140902].ID = 295586
 							)
 					)
+<<<<<<< HEAD
+				 )FOR XML PATH('')) ,1,2,''))
+>>>>>>> origin/master
+=======
 				 )FOR XML PATH('')) ,1,2,''))
 >>>>>>> origin/master
