@@ -12,8 +12,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TCS incident export$String_Ops.coverage" NAME="String Ops Coverage Results" MODIFIED="1414659690678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TCS incident export$Incident_Export.coverage" NAME="Incident Export Coverage Results" MODIFIED="1414652931980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TCS incident export$String_Ops.coverage" NAME="String Ops Coverage Results" MODIFIED="1414659690678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -26,7 +26,35 @@
     <favorites_list name="TCS incident export" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Syslog Sender v2.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Syslog Sender/Syslog Sender v2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9330986" vertical-offset="5265" max-vertical-offset="5909">
+              <caret line="311" column="0" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
+              <folding>
+                <marker date="1425355817826" expanded="true" signature="3389:3476" placeholder="select PARTI..PA_EVENT_PARTITION_CATALOG..." />
+                <marker date="1425355817826" expanded="true" signature="3845:4487" placeholder="SELECT [APP_..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Incident Export v2.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Incident Export v2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.56" vertical-offset="2090" max-vertical-offset="5833">
+              <caret line="116" column="45" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="45" />
+              <folding>
+                <element signature="e#21#36#0" expanded="true" />
+                <marker date="1424938409083" expanded="true" signature="2688:2775" placeholder="select PARTI..PA_EVENT_PARTITION_CATALOG..." />
+                <marker date="1424938409083" expanded="true" signature="3144:3596" placeholder="SELECT PA_EV..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -39,14 +67,16 @@
         <option value="$PROJECT_DIR$/String Ops.py" />
         <option value="$PROJECT_DIR$/Incident Export.py" />
         <option value="$PROJECT_DIR$/Incident Export v2.py" />
+        <option value="$PROJECT_DIR$/../Syslog Sender/MainScript.py" />
+        <option value="$PROJECT_DIR$/../Syslog Sender/Syslog Sender v2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="421" />
-    <option name="y" value="79" />
-    <option name="width" value="1392" />
-    <option name="height" value="910" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1378" />
+    <option name="height" value="702" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -74,21 +104,12 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="TCS incident export" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 3.4.1 (D:\Application folder\Python\python.exe) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -103,10 +124,11 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Syslog Sender/MainScript.py" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -122,6 +144,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PythonSourceCode\SSDE-Repo\Syslog Sender" />
       <recent name="D:\Github\SSDE-Repo\TCS incident export" />
     </key>
   </component>
@@ -248,9 +271,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -272,6 +292,9 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -338,7 +361,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="421" y="79" width="1392" height="910" extended-state="0" />
+    <frame x="-8" y="-8" width="1378" height="702" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -346,7 +369,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24563953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2452276" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -389,30 +412,41 @@
           <caret line="296" column="0" selection-start-line="296" selection-start-column="0" selection-end-line="296" selection-end-column="0" />
           <folding>
             <element signature="e#21#36#0" expanded="true" />
-            <marker date="1422343875053" expanded="true" signature="-1:-1" placeholder="select PARTI..PA_EVENT_PARTITION_CATALOG..." />
-            <marker date="1422343875053" expanded="true" signature="-1:-1" placeholder="SELECT PA_EV..." />
+            <marker date="1424938409083" expanded="true" signature="2688:2775" placeholder="select PARTI..PA_EVENT_PARTITION_CATALOG..." />
+            <marker date="1424938409083" expanded="true" signature="3144:3596" placeholder="SELECT PA_EV..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/QUeries.txt">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1843">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Incident Export v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69210523" vertical-offset="4756" max-vertical-offset="5833">
-          <caret line="278" column="0" selection-start-line="278" selection-start-column="0" selection-end-line="278" selection-end-column="0" />
+        <state vertical-scroll-proportion="-4.56" vertical-offset="2090" max-vertical-offset="5833">
+          <caret line="116" column="45" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="45" />
           <folding>
             <element signature="e#21#36#0" expanded="true" />
-            <marker date="1422343875053" expanded="true" signature="-1:-1" placeholder="select PARTI..PA_EVENT_PARTITION_CATALOG..." />
-            <marker date="1422343875053" expanded="true" signature="-1:-1" placeholder="SELECT PA_EV..." />
+            <marker date="1424938409083" expanded="true" signature="2688:2775" placeholder="select PARTI..PA_EVENT_PARTITION_CATALOG..." />
+            <marker date="1424938409083" expanded="true" signature="3144:3596" placeholder="SELECT PA_EV..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Syslog Sender/Syslog Sender v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9330986" vertical-offset="5265" max-vertical-offset="5909">
+          <caret line="311" column="0" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
+          <folding>
+            <marker date="1425355817826" expanded="true" signature="3389:3476" placeholder="select PARTI..PA_EVENT_PARTITION_CATALOG..." />
+            <marker date="1425355817826" expanded="true" signature="3845:4487" placeholder="SELECT [APP_..." />
           </folding>
         </state>
       </provider>

@@ -151,14 +151,16 @@ def SQLQuery (arg1, arg2, arg3, arg4, arg5):
                 ,[DESTINATIONS]
                 ,[ATT_NAMES]
                 ,[SUBJECT]
-                ,PA_MNG_USERS.LOGIN_NAME
+                ,PA_MNG_USER_LDAP_PROPS.VALUE
                 ,[POLICY_CATEGORIES]
                 ,[ANALYZED_BY]
 
-          FROM dbo.PA_EVENTS_%s, [dbo].[PA_MNG_USERS]
+          FROM dbo.PA_EVENTS_%s, [dbo].[PA_MNG_USERS], PA_MNG_USER_LDAP_PROPS
           WHERE PA_EVENTS_%s.SOURCE_ID = PA_MNG_USERS.ID AND
+                PA_MNG_USER_LDAP_PROPS.USER_ID = PA_MNG_USERS.id AND PA_MNG_USER_LDAP_PROPS.name='sAMAccountName' AND
                 dbo.PA_EVENTS_%s.INSERT_DATE <=  '%s'AND
-                dbo.PA_EVENTS_%s.INSERT_DATE >=  '%s' ''' % (Partition, Partition, Partition, Partition, Partition, arg5, Partition,arg4))
+                dbo.PA_EVENTS_%s.INSERT_DATE >=  '%s' ''' % (Partition, Partition, Partition, Partition, Partition,
+                                                             arg5, Partition, arg4))
 
     # Print the table headers (column descriptions)
     #for d in cur.description:
@@ -249,7 +251,7 @@ if total != 6:
 else:
     #Ask for password when syntax is correct and continue the rest of program
     Server = str(sys.argv[1])
-    Username =str(sys.argv[3])
+    Username = str(sys.argv[3])
     Password = str(sys.argv[5])
     #Password = getpass.getpass(prompt='Enter password for %s: ' % str(sys.argv[3]))
     SyslogIP = str(sys.argv[2])
